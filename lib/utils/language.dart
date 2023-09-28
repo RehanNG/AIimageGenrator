@@ -11,6 +11,7 @@ class Language {
       Language(1, "🇺🇸", "English", "en"),
       Language(2, "in", "हिंदी", "hi"),
       Language(3, "🇩🇿", "اَلْعَرَبِيَّةُ", "ar"),
+      Language(4, "Twemoji 2.0", "Urduُ", "ur"),
     ];
   }
 }

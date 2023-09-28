@@ -23,3 +23,4 @@ const String app = 'TexFusion';
 const String englishLanguage = 'en';
 const String hindiLanguage = 'hi';
 const String arabicLanguage = 'ar';
+const String urduLanguage = 'ur';

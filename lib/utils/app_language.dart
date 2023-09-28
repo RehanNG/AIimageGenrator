@@ -14,6 +14,8 @@ class LanguageSharedPreferences {
         return const Locale(hindiLanguage, 'IN');
       case arabicLanguage:
         return const Locale(arabicLanguage, 'DZ');
+      case urduLanguage:
+        return const Locale(urduLanguage, 'UR');
       default:
         return const Locale(englishLanguage, 'US');
     }
