@@ -10,13 +10,13 @@ import 'package:text_to_image_gen/bloc/app_language_cubit.dart';
 import 'package:text_to_image_gen/utils/strings.dart';
 import 'package:text_to_image_gen/widgets/app_theme.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-
 import 'Pages/home_page.dart';
 import 'Pages/settings_page.dart';
 import 'bloc/app_directory_cubit.dart';
 import 'bloc/app_mode_cubit.dart';
 import 'bloc/app_theme_cubit.dart';
-
+//dont forget to run this command in terminal :
+// flutter gen-l10n
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   if (Platform.isAndroid) {

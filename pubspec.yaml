@@ -41,6 +41,10 @@ flutter:
   generate: true
   uses-material-design: true
 
+flutter_gen:
+  git:
+    url: git://github.com/flutter/flutter_gen.git
+
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/animations/
